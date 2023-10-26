@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+function ADD(vibhu,vishu)
+{ var a  = parseInt(vibhu);
+var b = parseInt(vishu);
+var c = a+b;
+document.write("YOUR ANSWER IS : " + c); }
+function SUBTRACT(vibhu,vishnu)
+{ var a  = parseInt(vibhu);
+var b = parseInt(vishu);
+var c = a-b;
+document.write("YOUR ANSWER IS : " + c); }
+function MULTIPLY(vibhu,vishu)
+{ var a  = parseInt(vibhu);
+var b = parseInt(vishu);
+var c = a*b;
+document.write("YOUR ANSWER IS : " + c); }
+function DIVIDE(vibhu,vishu)
+{ var a  = parseInt(vibhu);
+var b = parseInt(vishu);
+var c = a/b;
+document.write("YOUR ANSWER IS : " + c); }
+</script>
+</head>
+<body align="center" style="background-color:cyan";>
+<h1>CALCULATOR</h1>
+<h3></h3>
+<input id="vibhu" class="input" type="number" placeholder="ENTER 1ST VALUE"><br><br><br>
+<input id="vishu" class="input" type="number" placeholder="ENTER 2ND VALUE"><br>
+<br>
+<h3>Click On Any Action Button That You Want!</h3>
+<input type="button" class="button"  value="+" onclick="ADD(vibhu.value,vishu.value)";>
+<input type="button" class="button"  value="-" onclick="SUBTRACT(vibhu.value,vishu.value)";>
+<input type="button" class="button"  value="×" onclick="MULTIPLY(vibhu.value,vishu.value)";>
+<input type="button" class="button"  value="÷" onclick="DIVIDE(vibhu.value,vishu.value)";>
+</body>
+</html>
